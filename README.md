@@ -1,7 +1,7 @@
 # E27 Pendant Light Diffuser
 
-[![Build STL files](https://github.com/romkey/light-diffuser/actions/workflows/build-stl.yml/badge.svg)](https://github.com/romkey/light-diffuser/actions/workflows/build-stl.yml)
-[![OpenSCAD CI](https://github.com/romkey/light-diffuser/actions/workflows/ci.yml/badge.svg)](https://github.com/romkey/light-diffuser/actions/workflows/ci.yml)
+[![Build STL files](https://github.com/romkey/pdxhackerspace-pendant-light-diffuser/actions/workflows/build-stl.yml/badge.svg)](https://github.com/romkey/pdxhackerspace-pendant-light-diffuser/actions/workflows/build-stl.yml)
+[![OpenSCAD CI](https://github.com/romkey/pdxhackerspace-pendant-light-diffuser/actions/workflows/ci.yml/badge.svg)](https://github.com/romkey/pdxhackerspace-pendant-light-diffuser/actions/workflows/ci.yml)
 [![Made with OpenSCAD](https://img.shields.io/badge/made%20with-OpenSCAD-f9d72c?logo=openscad)](https://openscad.org)
 
 A simple 3D-printable light diffuser for a hanging pendant with a
