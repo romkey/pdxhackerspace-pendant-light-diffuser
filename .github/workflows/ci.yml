@@ -1,0 +1,25 @@
+name: OpenSCAD CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    container: openscad/openscad:dev
+    steps:
+      - name: Install tools
+        run: apt-get update && apt-get install -y --no-install-recommends make git ca-certificates
+
+      - uses: actions/checkout@v4
+
+      - name: Render all models (warnings are errors)
+        run: make check
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stl
+          path: |
+            stl/*.stl
+            dxf/*.dxf
